@@ -231,7 +231,7 @@ nav a:nth-child(1):hover {
 /* FIRST PAGE
 ----------------------------------------------- */
 .first-page {
-   background-image: url(./img/iStock_000030291918_Full.jpg);
+   background-image: url(../img/iStock_000030291918_Full.jpg);
    background-color: seashell;
    background-position: center top;
    background-size: cover;
