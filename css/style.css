@@ -54,6 +54,12 @@ body {
 
 /* NAV
 ----------------------------------------------- */
+header {
+   display: grid;
+   grid-template-columns: 1fr;
+   justify-items: center;
+}
+
 #nav-grid {
    width: 100%;
    margin: 0 auto;
