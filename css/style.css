@@ -409,6 +409,10 @@ nav a:nth-child(1):hover {
 
 /* MENU
 ----------------------------------------------- */
+#menu {
+   display: none;
+}
+
 #menu img {
    width: 100%;
 }
@@ -417,6 +421,10 @@ nav a:nth-child(1):hover {
 /* MEDIA QUERY ----------------------------------------------- */
 @media (min-width: 992px) {
    #menu {
+      display:  none;
+   }
+   
+   #menu-small {
       background: linear-gradient( 0deg, black 0%, 
       var(--red) 40%, var(--or) 50%, 
       var(--red) 60%, black 100%);
