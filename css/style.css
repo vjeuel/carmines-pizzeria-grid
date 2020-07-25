@@ -413,18 +413,18 @@ nav a:nth-child(1):hover {
    display: none;
 }
 
-#menu img {
+#menu-small img {
    width: 100%;
 }
 
 
 /* MEDIA QUERY ----------------------------------------------- */
 @media (min-width: 992px) {
-   #menu {
+   #menu-small {
       display:  none;
    }
    
-   #menu-small {
+   #menu {
       background: linear-gradient( 0deg, black 0%, 
       var(--red) 40%, var(--or) 50%, 
       var(--red) 60%, black 100%);
@@ -433,7 +433,7 @@ nav a:nth-child(1):hover {
       grid-gap: 20px;
       justify-items: center;
       padding: 20px 0;
-      
+      border: greenyellow solid 5px;
    }
    
    #menu img {
@@ -442,6 +442,10 @@ nav a:nth-child(1):hover {
 }
 
 @media (min-width: 1200px) {
+   #menu-small {
+      display: none;
+   }
+   
    #menu img {
       width: 80%;
    }
